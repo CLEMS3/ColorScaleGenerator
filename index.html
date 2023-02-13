@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Color scale generator</h1>
+    
+    <div class="colorPickers">
+        <div class="start">
+            <label for="color1">Color 1:</label>
+            <input type="color" id="color1" name="color1" value="#ff0000">
+        </div>
+        <div class="end">
+            <label for="color2">Color 2:</label>
+            <input type="color" id="color2" name="color2" value="#0000ff">
+        </div>
+    </div>
+
+    <h2>Preview</h2>
+
+    <div id="gradient"></div>
+
+    <h2>Value</h2>
+    
+        <p>
+        <input id="percentageInput" type="number" min="0" max="100" step="0.1">%
+        </p>
+
+    <div class="display">
+        <div id="colorContainer"></div>
+        <div class="color-code">
+            <div id="rgbValue"></div>
+            <div id="hexValue"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
