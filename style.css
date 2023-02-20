@@ -23,3 +23,15 @@
 .color-code{
     margin-left: 1%;
 }
+
+body {
+  background-color: #16335D ;
+  color: white;
+  font-family: Roboto;
+}
+
+h1{
+  font-family: Mynerve;
+  text-align: center;
+}
+
